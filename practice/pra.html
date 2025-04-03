@@ -1,0 +1,78 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Types of Lists in HTML</title>
+    <style>
+        body { font-family: Georgia, 'Times New Roman', Times, serif; margin: 20px; }
+        h2 { color: #007BFF; }
+        ul, ol, dl { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+    <h2>Ordered List (Numbered)</h2>
+    <ol>
+        <li>Introduction to HTML</li>
+        <li>CSS Basics</li>
+        <li>JavaScript Essentials</li>
+    </ol>
+
+    <h2>Unordered List (Bulleted)</h2>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+    </ul>
+
+    <h2>Description List (Definition-style)</h2>
+    <dl>
+        <dt><strong>HTML</strong></dt>
+        <dd>HyperText Markup Language - The structure of web pages.</dd>
+
+        <dt><strong>CSS</strong></dt>
+        <dd>Cascading Style Sheets - Styling the webpage.</dd>
+
+        <dt><strong>JavaScript</strong></dt>
+        <dd>A programming language used for web interactivity.</dd>
+    </dl>
+
+    <h2>Nested List (List inside a List)</h2>
+    <ul>
+        <li>Frontend Technologies
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </li>
+       
+    </ul>
+
+    <h2 class="section-title">submit form</h2>
+            <div class="contact-form" style="text-align: center;">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required><br><br>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required><br><br>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="1" required></textarea><br><br>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+
+
+</body>
+</html>
+
+
